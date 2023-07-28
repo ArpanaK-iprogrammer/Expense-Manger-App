@@ -1,0 +1,129 @@
+body{
+    background-color: #eff1f2
+}
+
+.container{
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;  
+    padding: 30px 20px; 
+    
+}
+
+#newTask{
+    background-color: white;
+    padding: 30px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#newTask input{
+    width: 70%;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid #1d1d1d;
+    padding: 12px;
+    position: relative;
+}
+
+#newTask input:focus{
+    outline: none;
+}
+
+
+#newTask button{
+    position: relative;
+    float: right;
+    width: 20%;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    height: 45px;
+    color: white;
+    background-color: #6528F7;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#tasks{
+    background-color: white;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+    position: relative;
+    display: none;
+}
+
+@media screen and (max-width:400px) {
+    .container{
+        width: 30%;
+        min-width: 350px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left:50%;  
+        padding: 30px 20px;    
+    }
+    
+}
+
+.task{
+    background-color: white;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+
+.done-button{
+    border: none;
+    background-color: #82CD47;
+    color: white;
+    width:100px;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#completed-task{
+    background-color: white;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+    position: relative;
+    display: none;
+}
+
+.delete-button{
+    border: none;
+    background-color: red;
+    color: white;
+    width:100px;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.taskName{
+    font-size: 25px;
+}
+
+.taskName1{
+    font-size: 25px;
+}
+    
